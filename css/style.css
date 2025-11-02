@@ -1,0 +1,44 @@
+:root {
+    --card-img-height: 180px;
+}
+
+body {
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial
+}
+
+#tripsList .card {
+    min-height: 100%;
+}
+
+.card-img-top {
+    object-fit: cover;
+    height: var(--card-img-height);
+}
+
+#calcInfo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+@media (max-width:576px) {
+    #searchInput {
+        width: 60%
+    }
+
+    .card-img-top {
+        height: 140px
+    }
+}
+
+#btnClear {
+    height: 38px
+}
+
+.position-fixed {
+    pointer-events: none
+}
+
+.toast {
+    pointer-events: auto
+}
