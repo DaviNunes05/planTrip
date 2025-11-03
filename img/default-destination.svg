@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450">
+  <defs>
+    <linearGradient id="g" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#7ec8ff"/>
+      <stop offset="100%" stop-color="#a0d8ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#g)"/>
+  <g transform="translate(0,60)">
+    <g fill="#fff" opacity="0.15">
+      <ellipse cx="120" cy="330" rx="220" ry="40" />
+      <ellipse cx="500" cy="340" rx="260" ry="50" />
+    </g>
+    <g fill="#ffffff">
+      <path d="M120 300 L220 180 L320 300 Z" fill="#ffffff" opacity="0.9"/>
+      <path d="M280 300 L380 160 L480 300 Z" fill="#ffffff" opacity="0.85"/>
+    </g>
+    <g transform="translate(520,40) scale(1.2)" fill="#ffffff" opacity="0.95">
+      <!-- pequeno avião estilizado -->
+      <path d="M10 30 L60 20 L70 24 L80 22 L85 18 L90 20 L100 24 L95 28 L70 36 L60 40 L10 30 Z"/>
+    </g>
+  </g>
+  <text x="50%" y="90%" font-family="Arial, Helvetica, sans-serif" font-size="28" fill="#ffffff" text-anchor="middle">Destino</text>
+</svg>
