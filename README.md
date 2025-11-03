@@ -39,8 +39,10 @@ Pré-requisitos
 Como executar (modo rápido)
 
 1) Abre o arquivo `index.html` diretamente no navegador (duplo clique) — em muitos casos funciona, mas módulos ES importados a partir de arquivos locais às vezes apresentam restrições em alguns navegadores. Se tiver problema, use um servidor HTTP simples:
+   
+    - Acesse https://davinunes05.github.io/planTrip/
 
-	- Com Python 3 (abre http://localhost:8000):
+	- Ou Com Python 3 (abre http://localhost:8000):
 
 		```bash
 		python -m http.server 8000
